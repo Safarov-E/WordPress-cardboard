@@ -1,0 +1,32 @@
+.header  
+    &-logo
+        background: url(../img/1.png) center no-repeat
+        background-size: 100%
+        width: 191px
+        height: 61px
+    padding: 15px 0
+    &-contacts
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        &__phone
+            &s
+                display: flex
+            font-size: 22px 
+            margin-right: 13px 
+            &:first-child
+                border-right: 1px solid #cfcfd0
+                padding-right: 13px
+    
+
+@keyframes move
+    from
+        opacity: 0
+        margin-bottom: -100px
+    to
+        opacity: 1
+        margin-bottom: 0
+.animation 
+    animation-name: move
+    animation-duration: 1s
+
